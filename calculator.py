@@ -4,6 +4,7 @@ num1= float(input("Please Enter Number One: "))
 operator = input("Please Enter an Operator (+,-,*,/): ")
 num2= float(input("Please Enter Number Two: "))
 
+#Then Compare the operator to an actual operator
 if operator == "+":
     print(num1 + num2)
 elif operator == "-":
